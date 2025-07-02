@@ -191,9 +191,11 @@ def val_model(model, valid_loader, criterion, device):
 
 
 if __name__ == '__main__':
-    # with seed = 1001 best
-    # seed_everything(111279)
-    # your path
+    # Best performance observed with seed = 1001 on our setup (Ubuntu + RTX 3090/4090).
+    # Slight variations may occur on other platforms such as MacBook M3 or Windows.
+    seed_everything(1001)
+    # please run the preprocess/DataEnhance.py first before running this file
+    # -----your path-----
     DATA_PATH = "/Datasets/aptos2019"
     TRAIN_PATH = "train_preprocessed"
     VAL_PATH = "val_preprocessed"
