@@ -20,6 +20,7 @@ This repository is adapted from [MVCINN](https://github.com/XiaolingLuo/MVCINN).
   booktitle = {Thirty-Seventh AAAI Conference on Artificial Intelligence},
   year      = {2023}
 }
+```
 
 ## Citation
 If you find our work somewhat helpful, please consider citing our paper:
@@ -30,3 +31,4 @@ author={Xia, Xue and Lin, Zipeng and Zhu, Jingying and Yan, Jiebin and Fang, Yum
 booktitle={The 2025 IEEE International Conference on Multimedia and Expo {(ICME)}},
 year={2025},
 }
+```
